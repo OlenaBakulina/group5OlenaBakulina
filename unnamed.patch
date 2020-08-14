@@ -1,0 +1,343 @@
+Index: Lesson3.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Lesson3.iml	(date 1596563751241)
++++ Lesson3.iml	(date 1596563751241)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4" />
+\ No newline at end of file
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(date 1596563677092)
++++ .gitignore	(date 1596563677092)
+@@ -0,0 +1,2 @@
++.idea/
++*./iml
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(date 1596563527536)
++++ pom.xml	(date 1596563527536)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>org.example</groupId>
++    <artifactId>Lesson3</artifactId>
++    <version>1.0-SNAPSHOT</version>
++
++
++</project>
+\ No newline at end of file
+diff --git target/classes/HomeWork2Lena/Task1.class target/classes/HomeWork2Lena/Task1.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..38dcded2a6bee1ef2c564360229e36f336169aa7
+GIT binary patch
+literal 737
+zc${rfOK;Oa5dOAtV%IfoNt`y6mnn}VZK)}gLsf(-flyUhfRw5nIIYu_yNw^n-XQTy
+zxN+dZ84e(E;0N%d5VM=03Mspqo#)PcGxPh;&tCv`5W2X8pmE^CoW{ZOKf##@^SFg|
+z2e)0^!CeRUY;<k(7#dGxF4a?pTCab?U_C2N1;bJ#bMbPV#iBgsaY~kER1A4~!b_?3
+zsnJqrvSMgQheamd6y@k)Byt`e^J=uSPwtG%oMEN+Hah3;d6@D%2?wf_d9rVc@iL+B
+ztr>0x#)+O2#Y97*QwDcXjLV^TA$4)rl-br_JuG6$M&H8*HW@k-<bkY$SSE?6RG`j8
+z9z3?O<>5ZIshw#^DynMgBp@@|U|7BY_bNUYL-n6&@S##7qwy7Er6*xLvIt*O8;Y6{
+zJfmh>Gt3P3JFTTOqIPfAglJ_RtyP~nFx?})da)sKM!df91MI7DU)IYu#u}RRdXoUO
+z;G6BYu`>Pq85Zflu8+AxAJ&nN#$LVKAN7+?z1XumHaR|i!s0hL&H3+ezhFU&3nX6D
+zT8CruTU6D7O)wp-Qr-YAHc5L#U^R|iiqY>XI>aqJz!j_!5(itjN>YttySPSDono%j
+NU88IaH%z6Qe*sg2i^l)}
+
+diff --git target/classes/Lesson3/G_Boolean.class target/classes/Lesson3/G_Boolean.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..9165d5bd34879040a99ebc41f2d4099b05124be2
+GIT binary patch
+literal 566
+zc${reO;5r=5PeGvg^GMt@B>uT3wW?G9zhS9=%rB;3<o@z1vj{)AEp!&f0iCJ@!${e
+zM;T`ekr-*SGdu6i%zN3d?~hLahuAZbL?we&teIHHhJmVq8bhireHooFXpLr<K|c%b
+z1w-DEzPOxteG%U9zDr2S2?pHl@=&UJ2I|p+95YysBgW&vKe8|GPJ_S|+;0)-ap^Nu
+z8n@1fKXKdT{?P73q4bBXSc->3HN1dkV4O~mPM^W-1e0(e&ZUyf{Yo6Du`E(B3~Xkx
+zg>3`%EOxNVQ2b|zp)i-Z>W{=A`U7>I$C2>p8G;EB<*6qb*w<tzB3pucWXoCrGZ>Gm
+za!EsP^qO6=pwnZkF9D_uQcP22Q)ZNt`|n^cF`c29ia`w~#q6{JOLPOV%gD`!IdyB4
+zExoNBzamk6gGQ-FX}+ow>!zqO$U~aeWKg2TYIS`&jywu+f06zYE!PRL=%&1`#7y}I
+D6kTiH
+
+diff --git target/classes/Lesson3/H_String.class target/classes/Lesson3/H_String.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..a411c96fc879a7e0e848754decf06763586e87c8
+GIT binary patch
+literal 795
+zc${rg+iuf95ItKbwqsmcoTla0lF&lkt10CT#6yt~4~8NIMM6BFO|lAG>~-WzrG8d<
+zNF|W?06q#a>!hk^ZOJp9IWy<X&ic>apT7Yd;DrMht2WkbJZhkgj)lh#>R8og-NuIY
+zPaHhOrUl=^7K8apDw)4#F#N3^L+wp66buWYRN_Ms_eJ`N_an-9VKU%RkEc?{vt%v*
+zCNqtNBFhqW7`*%1%~PpHFA0meR1C}hm+*w2@*v`B6wJ_4iKip#ZC1bpDjt`j6_}M3
+z=@fRlNs$i3Td8N6ztrB>Juc>Pn|MN@ID>t}zZa2I+`_ht9qcl!TxUKiWHc11i#_Z!
+zu(pc;&nz6cc#cDc#p_3;)D^{X|3nP(|5DwvEEh5DH7N*aO-~||;3GBXL?L)ghcWqh
+zEYy%;&#ze1jnr&NYP9p@a*iecW+7EHD->yaV;x0wGp#Dc9y+*1Kaqas!1NZ$E>IMZ
+zXXNYK7hvZlyhzq8lLqdPb*BaJ&?Mi$5?ZrnMHL454R0>=jQ2lK`-S@F3z$0-Se{L0
+wm);2)6F67g9%`k60gG${>u^e)_LK|DSShtTxQlzFWMU2X=}Qm(pk#UY56hRXZvX%Q
+
+diff --git target/classes/HomeWork2Lena/Task2.class target/classes/HomeWork2Lena/Task2.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..3bb53b3a0830efc06f31d0c887abd5f1fba72cbf
+GIT binary patch
+literal 856
+zc${rg+iuf95Iq|^vEv#Nl3uv9v;+!nLTd=nB8BDwqzWVpkWv*Po;JxUZ0k$pI7qzr
+zOY*`qJfspxd;t6dp90Lfkt(QH+L_&%vvbbQ?vLMJzXQ0B9Sb&AO{^7h12qFTE$CQP
+z=9Y<d<!@WK14o$+19bxphQbpW%B0PpIU5HI`m?An7)qWD#mjNf74bgr`V^^nQIGov
+zJeF!d3+l;xIbvAwo=1Ur6U9eOPlVjv=cA)$i_!s?A;Y5c&O78Exa;$9;C7N&hJ%(O
+zV?NCnG$mnqJfKq53@9Z-9;6yFa#klA$33wpl^`pn-cm3d7jTh|Dn$nF+StSv!_xm1
+zo{pv87qJZ&_ejZ_O^s|Ccwplp9@*GdHL4lcV<?}MdeuD?z2u)z=i?|50kt(6C#pkf
+zMn>*yB29=|@PNb@_;4t~KEtMy(V}yqnOHh#Cedk#Vct0pBt$iXks&`+I}((|M^9p;
+zc|W8dG)KQljU1S2CD{_~T=I;3zJ3DsIZc<z7Sf=GOJwa+04k`GFJc}Gv%?cY=;Yg#
+zoTu$Bn-gqn?Uk}MLG25)Z_wYKAm5mxP%+3%VNOvz*4U>%zbHM0b)2L1&okB<OtKbL
+zorC)P6%yKjdcqQRD7H&_l%hJZ+E~XTmI#~2V_c?HPAS0^Tuqg?a1G1p<yO-A*Z%^>
+Ca<^~*
+
+diff --git target/classes/HomeWork2Lena/Task3.class target/classes/HomeWork2Lena/Task3.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..958b2e03d083f688a3e06891b970409fdeaa21cc
+GIT binary patch
+literal 870
+zc${rg+iuf95Iq|wabgS&N!xH~X(_ifp)qZt6@-QgBm|NLNU4etPn*OFZeu%g93<ZR
+zC4K2D@Q_L%@d5A;d<x~P6RCp6*3Nk6%*;7E-k*QI{Q$6vO#>ztGFZ&wI+k?YFp$K8
+zGB-20rTlFJcTiGhSw~q%MIimy_1&m0pp}+)1(MH#wj(fQyT0>k;5D6aM>e~R<n5p(
+zySp-U)qWgIMjzb1z>NJO@SL|nxW8sQzO;5^e}BD3*psd=Fk5<W@5ztS>Po+3HKNe<
+zJGGchh8>m{Ccp%J>BYPgFcEUS<cb80Mlc9l&U04@GGgkgDlu^$7uZHA(s9?s3aSFd
+z|GPaMxZSoBny_$>4Hr!ga!tp&iTik9Vng*POgNrE?zGkG=AP4v{s}cc^&`jQSc5^N
+zCKMxXV7(z}L~2KRJV;vhdXC=~SSd{y(V5U#EDJMHFbWAwm(C_KqcDL{Ak|Yl3Yx^n
+zU!uo&*XIp7$J?Zy1cVwT?G$$wy`WE(k0HLqaE>+|2Q^%zHAe}^qd=d<G-k%dpP7-Q
+z-_9p&ZA+`qWe%}1pEC}z^cC87B;Oq)RT(0k*J*~x43Rz1#L>xb!b2Db38B@GPJW&8
+zRw)x)8d+16sZ*#)B+s`({#9~sViu23#1mYJ^_52&7%j${w{QuUsW62aGp@3;j)$1z
+Lm&WLP%ysQAy1}@n
+
+diff --git target/classes/HomeWork2Lena/Task4.class target/classes/HomeWork2Lena/Task4.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..d3eaeda3aa894b047dd898e38fbb5745467bb753
+GIT binary patch
+literal 856
+zc${sL%Wl(95QhJgn;qAsA?bxnOIupNNoh>4EDBwKgg~+YDOD@P>Ljs(+t`jA2Z?=O
+zqZ{4;7O4ah55Sg3;5`WcaU)ewTk?#~{4?{-8T;p-Z$AKR;IRP{i#nEySjJrqD+Y2{
+zRAyDjJ>~BkcmPY8s)m||HG#qtFYw}hfvi<M6v#af+pfTr;|1>Pf!}na1KI2{Qg*_Y
+z>>kR<Q|ECo7k}{j0yECb(07l*=w#Dz18E<~{>k<pWnX%Mz^wJ&IhG%#-IYPdZp4un
+zboLZXwD`Vao{TzdQ%Omq7)U?ir)VM)FdE??YPl~wHIR{@>nhd6B(AYsO{C$WiFMQk
+z=Kk;UY~Xd<Ze+s7BQ{(zxyVfoTPC)#V`5kJsH9v^pmf>lP4n1o#s7pFpZc-ubFJYZ
+zRvStbFSOqh8WZhGpBE^|Ue68M0_#@Fimrsl!?IA1!;6r>v~@L+8I=^GK)$C=94L*)
+zPogDyH{c&M!M{m883?sX+9{rFdO@GBokM&{<PvQm31)Gf*1SkS85Q~>rZF=v{>+RV
+z{cbtq=ub<={#RtbBlqqc`L!VmWsPPCeTd>|cC>Id`b~WZ<1{mxKO6nJq}5>18tgVf
+z&LnhpU#7B3rbTL<%ned^Fq=$NBUMM0r#aS;j~lp|%)5nKxXtPE%%7*KF1wI$?)(Lf
+Cbhs7(
+
+diff --git target/classes/Lesson3/J_Math.class target/classes/Lesson3/J_Math.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..c972f860ea3de31e095491f9544d7554e8e45723
+GIT binary patch
+literal 637
+zc${re%SyvQ6g|_XO<Sw2)_3b$uy$ckS7Lo32ugfFr5hJIt)U%B6G>CSk8+_41s8sR
+zA0?h7N)Zg)x%ZxP@0^qQ{CfWYu#V*n5|~J15>pvWqo|{#V@4oZRgUs^1>)t^x`1}*
+z-dX}VQ#saIuhX!+OWClAjF@gy+I8uvp#K3izpc6gdDFDIUDw$(POeX--`*zEk;)Mm
+zFJGB=@<AH5bXrEu_mtDx4t1p0;%4C=T0ls~F{8m~3S??-&udyoD$pE=G}eN>ERxW5
+z%w{o%c^wN`EMiGu=&v0b?2DW??yRQ&2dX`GeXGM4aC;=iB1g(KE@;Q6DNA-}s_+ji
+zpx+0b&0p2Z$E$TLK;t_HUkoB}$1}ywU>3}Y${WOUNT+!wLokjE&ulb+0ahS8h@qe5
+zCtj*CAEc`J+|CPP#nR0y;w(zV+uy>D3XQ3l-)NUOW8dr&nduXK;Yui(WT#UyMX59<
+vh|N=eg$6b#zeRK(xp1-)8DN(W@7TjIMrbdADhjM(+{j^+Rh;NpI5YkYC}VYb
+
+diff --git target/classes/Lesson3/I_Comment.class target/classes/Lesson3/I_Comment.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..0a5f6ae3a38353a9a6a7c9f906513d9feeb1f02e
+GIT binary patch
+literal 560
+zc${rf%SyvQ6g|^d(ir=+_5G;2s4fiRvf{#mC<GNMZd}N;4s}YBkt7xRS-Mbg;RpCp
+z;+?cu#Ae_g?zwl)J$Lf;{qYIl5W5x()bglf(ZrI4WvrN3HLzx2ogsHD0~wz%q?>!U
+z44Jli5DZ0E2I6w)cSU%^yB;wWSM|7e%R{O237Lr>WyDZ*T@ghpIC3uT+sgMv5Vxr4
+za~Uwyn|JPjKXb?9LEq`bp$z)1WE2nk`tpo2gVj;PuqV!>9#i<0J<zQ-Oymu0*x1At
+zL-t&Fo-)v|v5g&u)ai(!{Lc|XX*%bsI}p9URA&^$!l!poLn_q9rlfMN$x%$c1oz2T
+zbq38~Jn77%ZEMY0%c6lC{RI7`z_fje7G(}0Bh2o<gS{l>If}W2Ov9#Vj~g(L0%0CS
+plqQ$ki5O6RMXHj1Lq=nka4J+F5iMuZDUrlfuuP{yNGm1X3qQ@kb07c!
+
+diff --git target/classes/HomeWork2Lena/Task5.class target/classes/HomeWork2Lena/Task5.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..28679c5683ec54a4b7acb4131bacc6f8a03f9311
+GIT binary patch
+literal 1108
+zc$|GxZBr6a6n?HC3+ti=iiTEeuOKREQ6{EEFVhElnZbc^`gDN{t}MIEvdHvH`W^KF
+zW^$$<(2r_5cd;bh+L=9vd!BQi=ehSTKYo7u4qy`n6<2U8jN1zCgmG6z0QY1_MUcj-
+zf{co=#MfkAmtjLi7Wc#0l#49|4-`CP2<;k{;qEa6Qt2{7@P%C$3^PT;67PELs&Ec?
+z)uc+SXxF$|=8hrPXT_j<WONzki*M|<sMt<xt0*j<J>cC|E>Ccq8x}(%^|5%&Pk7ek
+zRx?|29m8toJu&VyX*})&GlV5)pE#wqAAa-)U%Z4DdX0u~s7o!`J*OsK8`7@o8QYM}
+z8e)i(H7TM?7QJtnrrwgFO|1!k#@`c_ixZMBr{NJEE7;cX1Un21mpKfxE=iWlhUn{E
+zuc%i=!*+z;>(sd`x;wgtJa#oa#h!wF4bPBcSQ;PT4OcjS_dlmo^tl6u*>ex?tH+||
+z(ru;uZ$oj!iEz5K`D7~n?-LzkEPd*_qD`NU-IKhd8N<$gpaGZ01aH$oh<7@|sxz$n
+z3Hu0nha_*<wMQj}IUh&V5%*D~jdbM7v@R%)_WvJ6tYDV@RPvbslOG7hIa*~YGs=^z
+zL$EI%JWny?6$406)J6?hz#`=ct|ECh{FyoelwZXril+!1#)3mkzFiw2RQU?!6yd`m
+zA~AJ<sSLdXXahvYfN3gH^UMf17f+JB6be8^6jS6@Lxz66#I$EfABkcK%bv*suHiaa
+Qieei#2$efr@z`$u0<N44od5s;
+
+diff --git target/classes/Lesson3/K_Comparison.class target/classes/Lesson3/K_Comparison.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..9229b373cce79a9066de9e625a0ea6567e7460e8
+GIT binary patch
+literal 736
+zc${sKOK;Oa6ot>kZk)J=x_PverqBluClXkQRn^i>C8P=qih?3&7u6(KVXD}!90!SC
+zgFr~EVNs+mx?{tSLY#3Tl~fsN?wND%jPEz&KYuSS0X#v|hJ}?fZe!I(18XJR(R$ay
+zx`hpa;;xESwkKeC&5nS%pS%wR76KKAFGo=~Oy9`vfSF2=^yHu;Q>FbRX=WePP+%zt
+z!r?H9pZYIO_LJz0o9K2}kEDuO_l|>8`BC}<8Tb8mma4eFlXsJ8pXaMH$^t@i9&mO!
+zdjfVl8Ku4Oxze2%|L^ozpLS3}*}|rSE!?wk-@yYs<i<zWhc0*mwOPyp?iI<a?rGS|
+zrc&)s!z_&WSjmWm`WRa!{vnw&l7})Pd38owz&g`zz#gV|q;FsMX1xkFP~<PuqX3~V
+z#c0#{R6(6<{et+Bm**La<0KqLXR^M5o76HE;7$(zh5?iM&b4>l+B3Jd_Y;NH##dP8
+zcbLXGjNE^_=D$q&#@gp8Uop=yN7eQUsFgP?v0<5THsd^2h}I<5Ho*>v^_pOBv6w@*
+g#$a?6s(}uws1dt}HtJjz_=Q6(ab+;OocFo)4`!i^P5=M^
+
+diff --git target/classes/HomeWork2Lena/OverTask1.class target/classes/HomeWork2Lena/OverTask1.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..ac920e90d534c55cc5767f1eb8d1aae38914fee0
+GIT binary patch
+literal 280
+zc${^Pv2MaZ5JYFOv59d2(I84Xk^;+VgVG>H6c!X9sL$q<92lQu8~!U5Qi^;4ABD1K
+z5FLBcXlHhwbmz<OAAk@Y4;G$Xv|O|a&RAut{2*AvmleUD=#3<_BbCY7VIRwUDdLoq
+zZln{Du0*bkzlC=BtqMXvn(Dn=>wNbX$xH<Eqrr+@_)hQ^`j98`Q<;A2ei?1WQTVV?
+zC-ffBgpO$ismQ*9dAyZLi2-W-do#q3aaM<2P<f#KdIJ6MQiIFtRH20itA8!v30{Ra
+HtCs%{kpMa&
+
+diff --git target/classes/Lesson3/L_Escape.class target/classes/Lesson3/L_Escape.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..4fb6da38c8b6135fad8efa488090d5654b9ae3b3
+GIT binary patch
+literal 782
+zc${rg%Wl&^6g|_X@dJmp3E@#*ZrYNh5?Bbap@>a+Ei6C^WP>G`xTD0y@kAcGh%KMN
+zU%&!T7ySTM;fD}+Ttf+sZO!qVGc$MYx%bDf!y^E<v2DY~MGKd(X5zAqE4XUnnu+Ts
+zTodaCS_U>4s`sNL${sK*cDj9r%C6iK49k9$h-dkDAkvq75EE1PWys?`Pa{1q$x1eg
+zl-7KqluYh;{+mZC<P)(&+L%WP!}-o@f1e+4FXqY6>t$(_40no1JRQ>B#vGZ!?#Vn2
+z#p6gvsr@<imR{-L3>*WS4z_TEVfCqqW9jBfq;9(}4|v-^+d&82S*@kD7Q@CV&b{gC
+zG+g>r%+)9e7~byQ3trI@6-+-(kA8lfexDwmCLRj)E|ZhsNh<S+dp9Uu2viydI{QH1
+z_b)q>1!ZN8iksN)Wg71>to-jGQ76tkAMA@To1uCiR3^q$IGK~sJhm~C-V5?DBPRtP
+zlaq}(G=nkGvzY4B?93|<)?rcm=w|^;J5FPbW*#9UT-yEy_PLPH(pWtvu}q^={;yz_
+z&_W%Ja`Uh_4CsErLVfWoDjJtctd?k$XcC?TSfdbtNv}l*Q)APeT<AL2{t4Q}IW!5W
+J?TVcjegkFDy|n-U
+
+diff --git target/classes/Lesson3/C_Short.class target/classes/Lesson3/C_Short.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..378d0f3cdfbae0439eac4dcc8bca611a44328e5c
+GIT binary patch
+literal 611
+zc${reT}vB56g`v7?$)?!K8#J1_^l8txJZjHYF`3{!lJ@TUVM;AT;fP}w`?{A|A7BT
+zA1w62AJ89FdUg^J!G*c^&bjy8b7uek`||?e5W6K<Xw2agnkBT*cChMTO~5|UvCh5;
+z6gzu80ohG%LV+b;$Klx|>WAs2>W_$2{bZm<J(cSGJ_BWTtH%Nr-w(&*B>v)cuY=np
+z&5qfMl#T^fI#>Rk`lY;)iicj1r8*uS8zGerNv*xp77&Uj5Gd@hD5`5l8LNnjr68H4
+zgYdh~<=vUwLB7I;4adQ{iw$f#*mALro%|(ltqGK01<(6;;ovP4+>f&`qG~c>qds+~
+z6Yql7G8zn3M1!?=U;*c6ejD-Gvh!oFhfPTS^!zJ8<n|ap@a8cKX6y5Bh)2_&W3&xe
+zM2XRz4q%=Y*j>QljQqf9hq*0JtW)dAs>uB#`w4~CGm1=goB4I;nwhl?N0RRlb*WI}
+o=9Z~|uf}8>ODG#&6BSgcCeh$r)o|-rW@V94W?eO2SIqRs{}3*2r~m)}
+
+diff --git target/classes/Lesson3/A_Intro.class target/classes/Lesson3/A_Intro.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..d27cd456c483d6c125db546bd172b1933c556d61
+GIT binary patch
+literal 537
+zc${rf%Syvg5IwiAJdE~b>-!N`)rCP^xTpvsh(b`I(v1tbt(SUBk}F9n_*uG8aN!5|
+zQR3XRPzudr4s&Ma%$b|tzwaLaN7%Db!m@=1nkH6ktYXc;x`7Rb(y5GOdd84%?ROap
+z7wSnclzkbAn^D*k@jdSa#MFG%=RudpQs)!0kUq<Vq3Zi0NmO*~oj+bjX{_2*3b~9J
+znym+a$X~e^@Mz$5(pW}=cD9Je0~)Q*DKpp|HH!P<QtBnnMD$QMIxt`w*mSUkZ3gp7
+z1c7p0*T9a0UAWr%tQUsLbi-|LDEjFP)p<)&5z_r?M1{uKj#S<qc}dBU;2}Ax&!HKN
+z7o7!kXQMUmOt>i0%j+)(rma)7DDwyzVe#M#>^&>n6iXSI#{xxX+(5WUXkiKE$?!=g
+fM%)K-wfrXvQvsV$51Ax26|qo3m5}~o)>;1tOU!OR
+
+diff --git target/classes/Lesson3/B_Byte.class target/classes/Lesson3/B_Byte.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..3f9a5489cb8161dca638775004cee9b20ed9a0b3
+GIT binary patch
+literal 559
+zc${reO-lk%6g|&TN5{!b(>}Da+GvZ0XsNX@2!f#k!%d5L+QVMxOpIgD&#Fa1i+(^q
+zDmtTr2oBuObMLw5&F|m$4}cRKT1cRj#s)SmY+>6(*+fMk+0>p6&jpNHy(196@E?`H
+zs;fP9Jsx&da3{M1cJi*@lY@>7bX3op@$gBH1ahvcMkC)lby^Rtw@@{R45ju2O0|3U
+zS-whVAiciR4g>A=8<RUS=yS8M1QrmI)}nO<thPT6dg@X~_cBxd<7mf55~hhA8@t#u
+zQMIv;1A*+K6pEW4xamHtUbxU|zl}mQ<m>%0f#Ot+_MKZw2`Na)Aq5qdv<1wUs2cE@
+z@!D0r!~1dm<LHY)MC#~MtQ<zcm^k`^c%Q&&`sB0;i{75)8D=25g6wR$$7zGHn6sN7
+zh?PHK<m4H%3bQ#`X>vKm(KHDy5@fJWvWUDoCBQ0jj0W;pqY2KWP+%6RU7s)&{{aFY
+BXutpf
+
+diff --git target/classes/Lesson3/P_Loops.class target/classes/Lesson3/P_Loops.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..7fd29b31584253070c73319fa5606ff7b24be338
+GIT binary patch
+literal 1010
+zc${rg+fEZv6kVs&cBbQS8*ZW?h#&=oDu_3rD#lwfC`q-Z@xh#y2@Gjx>U2uPXTF3N
+zpY;I}jeLOL;EP}3o4QUZF+is|d(YW>?Y-C9(;t7n9s;<5hbFo(uH&kK2?J>ZlLn?z
+zn8r07GbRj-8<<r-qs(=aC36Pm4cyeRpyQT6a>?_(C@Y|)C-VaFN5Q%)(BXK#`=VYc
+zy5TEXEHh#|K}nYLGW68F8H`7pUQM9Oaok!h@aHpY@0=j0))twnNY5AOOTTrt<hIO|
+zrN5EMMWN?!EUH1m<9RNS@MXnikM0&YBDUB`h8qN=N}Dp2rN|8xnHE?x7u3U&`@~bs
+ztR|CL1+-wJTcGoF5qsx@ZAs_2KApBIKhUnYzK+`#?%=LK|LLNYx>sITB$ChEayb~W
+za1V<XmawcNYvDc~koFXhsn&RMFDE#>EN;1_=p?P3TI5zpA*eIad!*6}GHV<hal9)l
+z6q=OPs_U-{%%ofF_DrZrn1x0Z91HJBp9K=p-D0AEURAd;KWA^NiFsT`C;x})i9x7k
+z)AsO|p%?UtsRM}5jdU+<vJuqKM{6Ac(2w)<DGcDkQL%_2&L8km|BhHev$b3yZpU+l
+zgq_G0l6ErZXv>4shkF?N0{t6|!U0mYxsP+xgLAa|u=dfm8xx=Y{<PZ_w$t3hFtK(!
+z6Iymi-BY_70lyotU&lG+JLvy2o+D2{Cp&{;O@3_yD`>-Gv}2XxUsHaG?;fSUXT=V+
+wDRo(Dy@&~(L3SFzB!+N_`rfeLFk>2?Vzim1Qj9PQc3t3<(Z=$wG&qd?13fv{od5s;
+
+diff --git target/classes/Lesson3/M_Sout.class target/classes/Lesson3/M_Sout.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..aee295829bf19ba213a8f998d5b0fc4a80c60d05
+GIT binary patch
+literal 582
+zc${rf%TB^j5IvVyOR0b$2tM%{bYWv$V%(S*7gbC!Y+RTN+~6gBn6_yAEL~{g!VmDH
+zjB^VKA)$*onKLtI&fNa~eg6PB#i0Qm)ht#~(@{6DhIJhqIyN<IY1n4SoJ&te7Yxbf
+zQI{cg=??@$!Iqx59lJdd-1DA8Ov(29-0AW_s(ebOq9++L6m46Cq3@kpH;)~E9JQ$8
+za_KQtn-BJgzi`Xp-q7kqf%Jy0cn=STG+ACyW-v%3=!+|<cH}0SC#ugx7KVm~i5={!
+z^&*Tk?3vid0iE*d2hPBt`D@`geq$VpfFVEcjoi*QwtFMdpQk!+VI*97j<~lnu_t}&
+zj=V+WP;i$VmKV?r+Ox_Wy1UX`bT+xx=y#|u0j6%Dn4`=hWQ6JCFR=HxY*Ng`WD-jh
+z%}E3DC=g~*#PW2w9g6|=4<t&-Poxy4r<fs}36_wGWp(mVq*x=NnRuP*WkQCPc%t$T
+Ds)%;v
+
+diff --git target/classes/Lesson3/E_Int_Long.class target/classes/Lesson3/E_Int_Long.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..18b2c3f14372b221572ac94d8e91b8912eebeb1d
+GIT binary patch
+literal 607
+zc${rf+e*Vg5It+!rmfLx)5g2DUQ-_o#Yc-EqELw!sPsj#Y-*@m+C-96@U!$m!3RIU
+zH-AW+O@$(wurth=nRCu2A75|p0IJx|B7+45M)fmE0F;~S(+n1|l*KYuWGJa9t5{`7
+z)r2RaeFnv>G#L_y{;kW9vxVoL4f>87Tym#JNZ$6_yw~J`ko6Cki0(wlP_S(`41I6c
+zI%?IusAc<JXOFslE<6Uqyt2Fefm=Q9b*x4d2<paKJm}E2{!g2MaXNK64xJN*Y{MS}
+zZTDD6-P}lLNA7CKVqC?VhIMSH*wnBEQ-+E({>K}`)JXB%>ALOc7u0wRBezeV#2-+j
+zIJ75x>w>&R<k01Pa;X0UGpP5n>e0OuW<9>8c~WVjj5Pfc`HX={w-hz1EXs^>a{CqR
+zDQ-_tOvRvrNs8KV069!i&R`n(pXFPcNKiKNW3>X5gJ&ccUXY?xdVxA(Gmwlq6{z&4
+ii8X^FnUL%yLgj>xLaeA$#~^-{^ky&{+ntM<=Dz`0Byr;a
+
+diff --git target/classes/Lesson3/O_Array.class target/classes/Lesson3/O_Array.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..76bf559a5756b3baea61a701355bfdf8754bcdc4
+GIT binary patch
+literal 868
+zc${rfYirX`7=BK3a%ruu7dKZg^Ez#-wr;Z^-597aHmF8ysl*|YcA;jZiKc0x=%3OL
+z3Nrlx{vtn#Ptu`O7dYp=J?DL&=gp5_U%vxb!~G1>xNhKvj#UFU4ctnjj7kPo+}3eN
+z$6Wz!%k|x8TR<sSx&rcXaNr0mv|QhLIv)0%uw(Z;W(uvKZ+l%kbmRCqDWf;;NFd*8
+zIipeFZ`94#55v%&Zn8AAU0-0Syx%&sCwASl{XxAQg|0u?j0XvuXOB4F9wzPoLy?<1
+z>V#uf#Y>)^Kx&^aL_euK3IZ?Aup~!ONE*cxMzLsz0~RywU>x?H9XIBkJ?2@9@mXYW
+zinwktA*bBGEd<nE$MXW(7eVM9=%{5;$2}cuS*&9tUe>(&xh7`s(CJ6>eW#<y8FJ&n
+zn1#g|X*Z}p<G6@J9eYUL#S_v3`rA12xLH}=t8{S{2LEyVr66J<yt9nzw1QTxeu4Oy
+zluz^4lB9w&yt6X^7LcP&Bag!Du~>#=Ti}DbRY*ON+xk()QgRPWOXdvIQWewEQf5=0
+zoL03XX(_T}Nu^_{veVSmZ%{0yAlsHKsO_d+l4`#C)BFUjB$e7{=!qx)cxvqZ<-DE<
+z(irJvYw*rsg+d$5?-0?Ynpe~?pn`YQ@E(hazURcIFhvn(sY}I#`K6>wgmYNt7FPJK
+lg!5F}V5bZ8RN4kE;u7a|u}Z{c;<*W2p~uy5;W4jkzX7N~qe1`x
+
+diff --git target/classes/Lesson3/D_Char.class target/classes/Lesson3/D_Char.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..ef2346483aa5c215d21943dfd040a35ff7540834
+GIT binary patch
+literal 559
+zc${re%TB^T6g@)=<)u_!K0rm?fD0Sr5_D7Js!<aR8y9AZ4GihSw8g~F(uF22`~W}7
+zc&8;HBusMeo%=fH%>4d+{{T40NfB8z3)sd^5xdya(9+Om$PI)q;wuKF+Z!>cX7KDV
+zR4m~;w{y>S!Ut}<RH<6Qn7bn$3Yjm8YCIJYgKk+)6b1f;as6aYdDy3p$A!<(>^@pE
+z{>lxP`x9drhr*xq6CNH;XtTDa&A>RBNoF$?hrv7?J2yh|l~VjOxl=|Cnuh%{4sfWU
+zQ^paF88%m?khmqmojr5L@k(j<7R8Q7uMg(bXryXHVBC|Gm;^c8BSEz_Wd`j<W-dKb
+z?V7z2@vHR5@?^lII`VnS42q0m_Vf$vJ!u!n=aQm=BKdMUfD+w6-3@Fmmd7-$P;BUY
+zpqrN;$h1D8P-s(Ff;AK79F1z^^8`>pouDOnCj~$SdO}#m7MWC7L5*%wZ9PG1`~$k1
+BXr=%F
+
