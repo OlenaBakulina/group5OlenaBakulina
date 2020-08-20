@@ -7,8 +7,15 @@ System.out.println, System.out.print можно использовать тол�
 для этого нужно воспользоваться циклом for*/
     public static void main(String[] args) {
         String name = "Lena";
-        int string_number = 5;
-        int repeat_times = 10;
+        for (int repeat_times=0 ; repeat_times < 5; repeat_times++)
+        {
+            for (int string_number = 0; string_number < 10; string_number++)
+            {
+                System.out.print(name + " ");
+            }
+            System.out.println();
+        }
+
 
     }
 }

@@ -12,6 +12,8 @@ public class K_Comparison {
         System.out.println(b==c);//сравнение
         System.out.println(b=c);// приравнивание
         System.out.println(b!=c);// не равно
-
+        System.out.println(true);
+        boolean isTrue = a<b;
+        System.out.println(isTrue);
     }
 }
